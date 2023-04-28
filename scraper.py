@@ -70,7 +70,7 @@ class Scraper(threading.Thread):
                 self.check_transactions()
                 time.sleep(self.delay)
             except Exception:
-                logging.exception(f'Failed to scrap: {self.url}')
+                logging.exception(f'Failed to scrape: {self.url}')
     
     def cancel(self):
         logging.debug(f'Shutting: {self.name}')
