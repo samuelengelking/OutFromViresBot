@@ -11,7 +11,8 @@ LOADING_CHARS = "/—\|"
 TX_TYPES = [
     {
         'name': '🔄 LP Repay',
-        'url': 'https://w8.io/txs/g/73309',
+#        'url': 'https://w8.io/txs/g/73309',
+        'url': 'https://w8.io/txs/g/70310',
         'threshold': 0
     },
     {

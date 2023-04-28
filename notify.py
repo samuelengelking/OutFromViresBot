@@ -12,7 +12,7 @@ if TELEGRAM_BOT_ON:
     CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
     SERVER_URL = 'https://api.telegram.org'
 
-ALARM_CURRENCIES = ['USDC', 'USDT', 'VIRESUSDCLP']
+ALARM_CURRENCIES = ['WBTC', 'VIRESBTCLP']
 
 
 def send(scraper, tx):

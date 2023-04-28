@@ -40,8 +40,8 @@ class Scraper(threading.Thread):
                 currency = f'{currency} {splitted[10]}'
         
         # TODO convert all the currencies to short name
-        currency = 'USDC' if currency == 'USD Coin' else currency
-        currency = 'VIRESUSDCLP' if currency == 'VIRES_USDC_LP' else currency
+        currency = 'WBTC' if currency == 'WBTC' else currency
+        currency = 'VIRESBTCLP' if currency == 'VIRES_BTC_LP' else currency
 
         parsed = {
             'date': tx_date + ' ' + tx_time,
